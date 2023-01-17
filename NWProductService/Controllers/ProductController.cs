@@ -4,7 +4,7 @@ namespace NWProductService.Controllers
 {
     [ApiController]
     [Route("api/laylaylom/[controller]/[action]")]
-    public class CategoryController : ControllerBase
+    public class ProductController : ControllerBase
     {
         [HttpGet(Name ="GetCategories")]
         public IEnumerable/*<Models.Category>*/ GetCat()

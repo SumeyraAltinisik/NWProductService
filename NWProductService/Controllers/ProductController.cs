@@ -15,7 +15,7 @@ namespace NWProductService.Controllers
 
         [HttpGet("{categoryId}")]
 
-        public IEnumerable GetByCategoryID(int categoryId)
+        public IEnumerable GetByCategoryId(int categoryId)
         {
             Models.NorthwindContext cnt = new Models.NorthwindContext();
             return cnt.Products.Where(x => x.CategoryId == categoryId);

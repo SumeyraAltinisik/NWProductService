@@ -8,6 +8,7 @@ public partial class Category
 {
     public int CategoryId { get; set; }
 
+    [JsonProperty(propertyName:"Category")]
     public string CategoryName { get; set; } = null!;
 
     public string? Description { get; set; }

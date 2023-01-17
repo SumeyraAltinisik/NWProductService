@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWProductService", "NWProductService\NWProductService.csproj", "{7E935ACF-F61C-4DD0-81DE-07326D90A2E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWProductService", "NWProductService\NWProductService.csproj", "{7E935ACF-F61C-4DD0-81DE-07326D90A2E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWWebUI", "NWWebUI\NWWebUI.csproj", "{BBA342CE-0C8B-4297-BE02-7585CCD8B398}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWWebUI", "NWWebUI\NWWebUI.csproj", "{BBA342CE-0C8B-4297-BE02-7585CCD8B398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWTest", "NWTest\NWTest.csproj", "{0548DE3D-B69C-4331-A8D1-A778885BF459}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BBA342CE-0C8B-4297-BE02-7585CCD8B398}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA342CE-0C8B-4297-BE02-7585CCD8B398}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBA342CE-0C8B-4297-BE02-7585CCD8B398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0548DE3D-B69C-4331-A8D1-A778885BF459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0548DE3D-B69C-4331-A8D1-A778885BF459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0548DE3D-B69C-4331-A8D1-A778885BF459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0548DE3D-B69C-4331-A8D1-A778885BF459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
